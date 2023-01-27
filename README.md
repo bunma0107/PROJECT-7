@@ -93,7 +93,23 @@ sudo mount -t nfs -o rw,nosuid <NFS-Server-Private-IP-Address>:/mnt/apps /var/ww
 ![image](https://user-images.githubusercontent.com/113097621/214451028-c051a52c-b8b5-4ebf-9445-dca8f9f68753.png)
  
  Verify that NFS was mounted successfully by running df -h. Make sure that the changes will persist on Web Server after reboot:
- 
+ ![image](https://user-images.githubusercontent.com/113097621/214982273-c92cf69c-ebf3-4e1f-8b8e-3ef7bbcb60aa.png)
+
+Install Remi’s repository, Apache and PHP
+sudo yum install httpd -y
+![image](https://user-images.githubusercontent.com/113097621/214984406-1c311f3a-e91e-413a-bc35-88f5dbe24dea.png)
+
+sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+![image](https://user-images.githubusercontent.com/113097621/214984982-1c76d25c-1899-4c40-bc30-85a0cdda8a0d.png)
+
+sudo dnf install dnf-utils http://rpms.remirepo.net/enterprise/remi-release-8.rpm
+![image](https://user-images.githubusercontent.com/113097621/214984579-b93fcc24-1bb0-4718-a135-7eb054928420.png)
+
+sudo dnf module reset php
+![image](https://user-images.githubusercontent.com/113097621/214985376-ecb2322d-b661-48b6-a751-615001b06fa4.png)
+
+![image](https://user-images.githubusercontent.com/113097621/214985656-52a383b1-df46-40a2-a8a9-cac2763848ff.png)
+
 
 
 
