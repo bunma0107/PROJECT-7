@@ -109,6 +109,25 @@ sudo dnf module reset php
 ![image](https://user-images.githubusercontent.com/113097621/214985376-ecb2322d-b661-48b6-a751-615001b06fa4.png)
 
 ![image](https://user-images.githubusercontent.com/113097621/214985656-52a383b1-df46-40a2-a8a9-cac2763848ff.png)
+ 
+STEPS 1 TO 5 WAS REPEATED FOR THE 3 WEB SERVERS
+ 
+ 
+Verify that Apache files and directories are available on the Web Server in /var/www and also on the NFS server in /mnt/apps
+![image](https://user-images.githubusercontent.com/113097621/214992205-3b161c1b-a19d-49b3-8a5d-13d535d9c0ab.png)
+![image](https://user-images.githubusercontent.com/113097621/214992258-c6056b08-f5bc-4dd8-ab3c-4147cf7bf574.png)
+ 
+ ![image](https://user-images.githubusercontent.com/113097621/214992409-394c3ba2-fe69-4537-95d5-4d57e250a7da.png)
+ 
+ Locate the log folder for Apache on the Web Server and mount it to NFS server’s export for logs. Repeat step №4 to make sure the mount point will persist after reboot.
+ ![image](https://user-images.githubusercontent.com/113097621/214993443-1b499d1f-a0d3-4a03-ab49-cbea60185194.png)
+
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/113097621/214998058-fa8f3c1d-f4f8-4a52-b02e-36a02d436e44.png)
+
+
+
 
 
 
