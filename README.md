@@ -123,7 +123,7 @@ Verify that Apache files and directories are available on the Web Server in /var
  ![image](https://user-images.githubusercontent.com/113097621/214993443-1b499d1f-a0d3-4a03-ab49-cbea60185194.png)
 
  
- 
+ Open the website in your browser 
  ![image](https://user-images.githubusercontent.com/113097621/214998058-fa8f3c1d-f4f8-4a52-b02e-36a02d436e44.png)
 
 
