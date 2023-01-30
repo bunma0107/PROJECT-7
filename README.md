@@ -123,8 +123,21 @@ Verify that Apache files and directories are available on the Web Server in /var
  ![image](https://user-images.githubusercontent.com/113097621/214993443-1b499d1f-a0d3-4a03-ab49-cbea60185194.png)
 
  
- Open the website in your browser 
+ Fork the tooling source code from Darey.io Github Account to your Github account. (Learn how to fork a repo here)
+ ![image](https://user-images.githubusercontent.com/113097621/214999070-1a064edc-97e0-4de0-9c89-3f00021c2cc2.png)
+
+ 
+ Deploy the tooling website’s code to the Webserver. Ensure that the html folder from the repository is deployed to /var/www/html
+ 
+ 
  ![image](https://user-images.githubusercontent.com/113097621/214998058-fa8f3c1d-f4f8-4a52-b02e-36a02d436e44.png)
+ 
+ ![image](https://user-images.githubusercontent.com/113097621/215257748-325a4116-4d90-4944-865e-c6490c8d7309.png)
+
+Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-DNS-Name>/index.php and make sure you can login into the websute with myuser user. 
+![image](https://user-images.githubusercontent.com/113097621/215457758-b49d1c3f-5dd1-4a25-8662-18593919eb35.png)
+![image](https://user-images.githubusercontent.com/113097621/215457850-1c86ea31-f57b-437e-90cb-4d75ba40d4b5.png)
+
 
 
 
